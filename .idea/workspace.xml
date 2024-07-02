@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b934ea4e-c3c9-4aa6-a991-90bece102b25" name="更改" comment="" />
+    <list default="true" id="b934ea4e-c3c9-4aa6-a991-90bece102b25" name="更改" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/src/main/java/cli/CommandLineInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/src/main/java/cli/CommandLineInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/src/main/java/service/NormalStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/src/main/java/service/NormalStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/target/classes/service/NormalStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/Mesql-main/easy-db-main/easy-db-main/target/classes/service/NormalStore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data.table" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.table" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wal.log" beforeDir="false" afterPath="$PROJECT_DIR$/wal.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -17,26 +27,40 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2ie3FJZuKADHBVSONGFVByMwOqm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Idea/IntelliJ IDEA 2023.2.5/workspace/Swing-学生考勤(数据库)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Idea/IntelliJ IDEA 2023.2.5/workspace/Mesql-main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="应用程序.CommandLineInterface">
+}]]></component>
+  <component name="RunManager" selected="应用程序.CmdClient">
+    <configuration name="CmdClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.CmdClient" />
+      <module name="easy-db" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommandLineInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cli.CommandLineInterface" />
       <module name="easy-db" />
@@ -91,6 +115,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CmdClient" />
         <item itemvalue="应用程序.CommandLineInterface" />
         <item itemvalue="应用程序.SocketServerUsage" />
         <item itemvalue="应用程序.SocketClientUsage" />
@@ -110,10 +135,35 @@
       <workItem from="1719867983707" duration="1637000" />
       <workItem from="1719869646313" duration="5261000" />
       <workItem from="1719878676944" duration="6289000" />
+      <workItem from="1719901307930" duration="2893000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1719901490350</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719901490350</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>

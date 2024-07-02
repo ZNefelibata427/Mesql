@@ -67,11 +67,9 @@ public class NormalStore implements Store {
         if (!file.exists()) {
             LoggerUtil.info(LOGGER, logFormat, "NormalStore", "dataDir isn't exist, creating...");
             file.mkdirs();
+            // 重新加载索引
+            this.reloadIndex();
         }
-
-        // 重新加载索引
-        this.reloadIndex();
-
         // 启动文件监控线程
         new Thread(this::monitorFileSize).start();
 
@@ -155,7 +153,7 @@ public class NormalStore implements Store {
         }
     }
 
-    // 旋转并压缩文件
+    // 旋转并压缩文件!
     private void rotateAndCompressFile(File file) {
         lock.writeLock().lock();
         try {

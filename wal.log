@@ -22,3 +22,6 @@ SET fff 123
 SET jjj 12
 RM jjj
 SET grx 26
+SET jyy 12
+SET zzz 12
+RM zzz
